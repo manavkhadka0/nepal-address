@@ -1,0 +1,54 @@
+{
+  "name": "@manavkhadka0/nepal-address",
+  "version": "1.0.0",
+  "description": "A universal npm package for Nepal's administrative data (provinces, districts, municipalities) with TypeScript support, search capabilities, and validation utilities",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run build:clean && npm run build:cjs && npm run build:esm",
+    "build:clean": "rm -rf dist dist-temp",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json --outDir dist-temp && mv dist-temp/index.js dist/index.mjs 2>/dev/null || cp dist-temp/index.js dist/index.mjs && rm -rf dist-temp",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nepal",
+    "address",
+    "provinces",
+    "districts",
+    "municipalities",
+    "nepal-address",
+    "address-data",
+    "location-data"
+  ],
+  "author": "manavkhadka0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manavkhadka0/nepal-address.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
