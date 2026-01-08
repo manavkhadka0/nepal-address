@@ -1,6 +1,6 @@
 {
   "name": "@manavkhadka0/nepal-address",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A universal npm package for Nepal's administrative data (provinces, districts, municipalities) with TypeScript support, search capabilities, and validation utilities",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

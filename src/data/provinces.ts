@@ -7,7 +7,7 @@ export const PROVINCES: readonly Province[] = [
   "bagmati",
   "sudurpaschim",
   "lumbini",
-  "pradesh-1",
+  "koshi",
   "madhesh",
   "gandaki",
   "karnali",

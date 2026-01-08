@@ -76,23 +76,23 @@ const DISTRICT_TO_PROVINCE: Record<string, Province> = {
   parsa: "madhesh",
   parasi: "madhesh",
 
-  // Pradesh-1
-  bhojpur: "pradesh-1",
-  dhankuta: "pradesh-1",
-  illam: "pradesh-1",
-  ilam: "pradesh-1", // alias
-  jhapa: "pradesh-1",
-  khotang: "pradesh-1",
-  morang: "pradesh-1",
-  okhaldhunga: "pradesh-1",
-  panchthar: "pradesh-1",
-  sankhuwasabha: "pradesh-1",
-  solukhumbu: "pradesh-1",
-  sunsari: "pradesh-1",
-  taplejung: "pradesh-1",
-  tehrathum: "pradesh-1",
-  terhathum: "pradesh-1", // alias
-  udayapur: "pradesh-1",
+  // koshi
+  bhojpur: "koshi",
+  dhankuta: "koshi",
+  illam: "koshi",
+  ilam: "koshi", // alias
+  jhapa: "koshi",
+  khotang: "koshi",
+  morang: "koshi",
+  okhaldhunga: "koshi",
+  panchthar: "koshi",
+  sankhuwasabha: "koshi",
+  solukhumbu: "koshi",
+  sunsari: "koshi",
+  taplejung: "koshi",
+  tehrathum: "koshi",
+  terhathum: "koshi", // alias
+  udayapur: "koshi",
 
   // Sudurpaschim
   achham: "sudurpaschim",
@@ -174,7 +174,7 @@ const DISTRICTS_BY_PROVINCE: Record<Province, readonly string[]> = {
     "parsa",
     "parasi",
   ],
-  "pradesh-1": [
+  koshi: [
     "bhojpur",
     "dhankuta",
     "illam",

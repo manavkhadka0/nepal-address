@@ -9,7 +9,7 @@ export type Province =
   | "bagmati"
   | "sudurpaschim"
   | "lumbini"
-  | "pradesh-1"
+  | "koshi"
   | "madhesh"
   | "gandaki"
   | "karnali";
